@@ -2001,6 +2001,9 @@ section {
   .hero .info p {
     font-size: 12px;
   }
+  .hero .info {
+    padding: 0 30px;
+  }
   .hero .info .btn-get-started {
     font-family: var(--font-primary);
     font-weight: 500;
