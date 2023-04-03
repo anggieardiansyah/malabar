@@ -37,6 +37,25 @@ body {
   overflow-x: hidden;
 }
 
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 80px;
+  right: 20px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.my-float {
+  margin-top: 16px;
+}
+
 a {
   color: var(--color-primary);
   text-decoration: none;
@@ -279,6 +298,12 @@ section {
 
 .header .logo h1 span {
   color: var(--color-primary);
+}
+
+@media (max-width: 640px) {
+  .header .logo h1 {
+    font-size: 18px;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1902,7 +1927,7 @@ section {
   color: #fff;
   margin-bottom: 30px;
   padding-bottom: 30px;
-  font-size: 56px;
+  font-size: 52px;
   font-weight: 700;
   position: relative;
 }
@@ -1966,6 +1991,28 @@ section {
 @media (min-width: 640px) {
   .hero .carousel-control-next {
     padding-right: 15px;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero .info h2 {
+    font-size: 22px;
+  }
+  .hero .info p {
+    font-size: 15px;
+  }
+  .hero .info .btn-get-started {
+    font-family: var(--font-primary);
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 40px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px;
+    color: #fff;
+    border: 2px solid var(--color-primary);
   }
 }
 
