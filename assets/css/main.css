@@ -31,6 +31,20 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+/* Icon Sosmed */
+.social-media-icon {
+  padding: 10px;
+  background: #222;
+  color: #fff;
+  border-radius: 4px;
+}
+
+a.social-media-icon:hover {
+  background: #fff !important;
+  color: #222 !important;
+}
+
 body {
   font-family: var(--font-default);
   color: var(--color-default);
